@@ -7,51 +7,69 @@
 
 	<style>
 
-html, body {
-		box-sizing: border-box;
-	}
-	* {
-		box-sizing: inherit;
-	}
 
-html, body, h1, h2, h3, h4, h5, h6 {
-		padding: 0;
-		margin: 0;
-	}
-
-.container {
-	width: 700px;
-  	margin: 0 auto;
-  	padding: 30px;
-    background-color: #FFF0FF;
-  	padding: 10px;
-  	border: 2px solid black;
-  	font-family: sans-serif;
-  	font-size: 14px;
-  	margin-top: 170px;
+body {
+  background: url("http://rekkerd.org/img/201209/pocketBlakus.jpg") no-repeat center center fixed; 
+  background-size: cover;
 }
 
-h1 {
-	font-size: 60px;
-	text-align: center;
-}
- 
-.menu {
-	display: inline-block;
-
-}
-
-nav ul li {
-		display: inline;
-		padding-right: 20px;
-		text-transform: uppercase;
+nav ul li { 
+    padding-right: 100px;
+    padding-left: 150px;
+    text-transform: uppercase;
 		font-family: sans-serif;
 		letter-spacing: 2px;
 		text-align: center;
+		list-style: none;
+    display: inline-block; 
 		}
 
-body {
-	background-color: #B870FF; 
+.options {
+  margin: 0 auto; 
+  background-color: green; 
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #F5F5DC;
+  margin: 0 auto; 
+  padding: 5px 20px 5px 20px;
+  width: 10%;
+}
+
+
+
+.info {
+  padding: 20px; 
+  margin: 0 auto; 
+  margin-top: 30px;
+  width: 70%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px; 
+  color: black;
+}
+
+p {
+  font-family: century gothic;
+  color: black;
+  font-size: 25px; 
+  line-height: 40px; 
+}
+
+.yes {
+  border: 3px solid red;
+  padding: 10px 20px 10px 20px; 
+}
+
+.no {
+  border: 3px solid red;
+  padding: 10px 20px 10px 20px; 
 }
 
 	</style>
@@ -60,27 +78,26 @@ body {
 <body>
 <div class="container">
 
-	<h1>Life of a Musician</h1>
 
-	<p>You're a music student in attending Boston University, studying Cello Performance and minoring in Arts Administration. You're a full time student, principal cellist in the school orchestra (generally rehearses at 3pm), and have some gigs. You're about to graduate, and move onto the next phase in your life. You've been worried about the future, mostly because you're not completely sure what you want to do as a career. Maybe you'll figure it out through this adventure. There will be many different outcomes to this story, depending on your ambition, dignity, and/or creativity. Are you ready to start?
+    <h1>Life of a Musician</h1>
 
-	<nav>
-		<ul>
-			<li><a href="Project2_Yes1.html">Yes</a></li>
-			<li><a href="Project2_Main.html">No</a></li>
-		</ul>
-	</nav>
+  <div class="info">
+    <p>You're a music student in attending Boston University, studying Cello Performance and minoring in Arts Administration. You're a full time student, principal cellist in the school orchestra (generally rehearses at 3pm), and have some gigs. You're about
+      to graduate, and move onto the next phase in your life. You've been worried about the future, mostly because you're not completely sure what you want to do as a career. Maybe you'll figure it out through this adventure. There will be many different
+      outcomes to this story, depending on your ambition, dignity, and/or creativity. Are you ready to start?
 
-	
-
-
-
-
-
+      <nav>
+        <ul>
+          <li><div class="yes"><a href="Project2_Yes1.html">Yes</a></li>
+          <li><div class="no"><a href="Project2_Main.html">No</a></li>
+        </ul>
+      </nav>
+    </div>
 
 
+  </div>
 
-
+</body>
 
 </div>
 </body>

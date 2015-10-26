@@ -19,57 +19,83 @@ html, body, h1, h2, h3, h4, h5, h6 {
 		margin: 0;
 	}
 
-.container {
-	width: 700px;
-  	margin: 0 auto;
-  	padding: 30px;
-    background-color: #FFF0FF;
-  	padding: 10px;
-  	border: 2px solid black;
-  	font-family: sans-serif;
-  	font-size: 14px;
-  	margin-top: 170px;
+body {
+  background: url("http://michaelhyatt.com/wp-content/uploads/2012/02/iStock_000017371550Small-570x379.jpg") no-repeat center center fixed; 
+  background-size: cover;
 }
 
-h1 {
-	font-size: 60px;
-	text-align: center;
-}
- 
-.menu {
-	display: inline-block;
-
-}
-
-nav ul li {
-		padding-right: 20px;
-		text-transform: uppercase;
+nav ul li { 
+    padding-right: 100px;
+    padding-left: 150px;
+    text-transform: uppercase;
 		font-family: sans-serif;
 		letter-spacing: 2px;
 		text-align: center;
 		list-style: none;
+    display: inline-block; 
 		}
 
-body {
-	background-color: #B870FF; 
+.options {
+  margin: 0 auto; 
+ 
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #F5F5DC;
+  margin: 0 auto; 
+  padding: 5px 20px 5px 20px;
+  width: 10%;
+}
+
+
+
+.info {
+  padding: 20px; 
+  margin: 0 auto; 
+  margin-top: 70px;
+  width: 70%;
+}
+
+
+p {
+  font-family: century gothic;
+  color: black;
+  font-size: 25px; 
+  line-height: 40px; 
+}
+
+.wakeup {
+  border: 3px solid red;
+  padding: 10px 20px 10px 20px; 
+  margin-bottom: 30px; 
+}
+
+.sleep {
+  border: 3px solid red;
+  padding: 10px 20px 10px 20px; 
 }
 
 	</style>
 </head>
 
 <body>
-<div class="container">
+<div class="info">
 
 
 	<p>Today is the orchestra concert, and there is a dress rehearsal right before the concert taking place at the same time that usual orchestra rehearsals are (3PM). You and the orchestra have been preparing this for the past 3 weeks. It's 9AM, and the alarm is going off. You've had a long night of work and practicing, and you're feeling especially groggy. You want to: 
 
+	<div class="options">
 	<nav>
 		<ul>
-			<li><a href="Project2_WakeUp.html">Wake up and  deal with it and make coffee</a></li>
-			<li><a href="Sleeping_in.html">Hit the snooze button and sleep in </a></li>
+			<li><div class="wakeup"><a href="Project2_WakeUp.html">Wake up and  deal with it and make coffee</a></li>
+			<li><div class="sleep"><a href="Sleeping_in.html">Hit the snooze button and sleep in </a></li>
 		</ul>
 	</nav>
-
+</div>
 	
 
 
