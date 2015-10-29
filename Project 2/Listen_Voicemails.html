@@ -19,53 +19,82 @@ html, body, h1, h2, h3, h4, h5, h6 {
 		margin: 0;
 	}
 
-.container {
-	width: 700px;
-  	margin: 0 auto;
-  	padding: 30px;
-    background-color: #FFF0FF;
-  	padding: 10px;
-  	border: 2px solid black;
-  	font-family: sans-serif;
-  	font-size: 14px;
-  	margin-top: 170px;
+body {
+  background: url("img/Angry.jpg") no-repeat center center fixed; 
+  background-size: cover;
 }
 
-h1 {
-	font-size: 60px;
-	text-align: center;
-}
- 
-.menu {
-	display: inline-block;
-
-}
-
-nav ul li {
-		padding-right: 20px;
-		text-transform: uppercase;
+nav ul li { 
+    padding-right: 150px;
+    padding-left: 150px;
+    text-transform: uppercase;
 		font-family: sans-serif;
 		letter-spacing: 2px;
 		text-align: center;
 		list-style: none;
+    display: inline-block; 
 		}
 
-body {
-	background-color: #B870FF; 
+.options {
+  margin: 0 auto; 
+  margin-top: 40px;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #F5F5DC;
+  margin: 0 auto; 
+  padding: 5px 20px 5px 20px;
+  width: 10%;
+}
+
+
+
+.info {
+  padding: 20px; 
+  margin: 0 auto; 
+  margin-top: 100px;
+  width: 60%;
+}
+
+
+p {
+  font-family: verdana;
+  color: #FFFACD;
+  font-size: 25px; 
+  line-height: 40px; 
+  text-shadow: 1px 1px black; 
+}
+
+.accept {
+  border: 3px solid red;
+  padding: 10px 20px 10px 20px; 
+  margin-bottom: 30px; 
+  line-height: 20px; 
+}
+
+.noaccept {
+  border: 3px solid red;
+  padding: 10px 20px 10px 20px; 
+  line-height: 20px; 
+}
 	</style>
 </head>
 
 <body>
-<div class="container">
+<div class="info">
 
 
-	<p>You arrive to rehearsal an hour late and saw how upset both the orchestra manager and the conductor is. They're so upset that you move from principal cello to last chair cello. However, you still get to play in the concert and to still be a part of this orchestra. You:
+	<p>You listen to the voicemails and hear how upset the orchestra manager and conductor are. You rush to rehearsal and arrive hour late. They're so upset that you move from principal cello to last chair cello. However, you still get to play in the concert and to still be a part of this orchestra. You:
+
+<div class="options">
 	<nav>
 		<ul>
-			<li>You accept the punishment and acknowledge your mistakes.</li>
-			<li>Say, "I didn't do anything wrong! This isn't a good punishment. I quit!"</li>
+			<li><div class="accept"><a href="Accept.html">You accept the punishment and acknowledge your mistakes.</a></li>
+			<li><div class="noaccept"><a href="NoAccept.html">Say, "I didn't do anything wrong! This isn't a good punishment. I quit!"</a></li>
 		</ul>
 	</nav>
 
