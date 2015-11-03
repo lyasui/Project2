@@ -7,41 +7,43 @@
 
 	<style>
 
-html, body {
-		box-sizing: border-box;
-	}
-	* {
-		box-sizing: inherit;
-	}
-
-html, body, h1, h2, h3, h4, h5, h6 {
-		padding: 0;
-		margin: 0;
-	}
 
 body {
   background: url("img/Success.jpg") no-repeat center center fixed; 
   background-size: cover;
 }
 
+nav ul li { 
+    padding-right: 150px;
+    padding-left: 150px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    list-style: none;
+    display: inline-block; 
+    }
 
 
 .options {
   margin: 0 auto; 
   margin-top: 40px;
+  margin-left: 95px;
 }
 
 a:link {
   text-decoration: none;
+  color: #FFE4B5;
+}
+
+a:visited {
+  color: #FFE4B5;
 }
 
 a:hover {
-  background-color: #F5F5DC;
+  color: #9370DB;
   margin: 0 auto; 
-  padding: 5px 20px 5px 20px;
-  width: 10%;
 }
-
 
 
 .info {
@@ -53,23 +55,19 @@ a:hover {
 
 
 p {
-  font-family: verdana;
+  font-family: 'Raleway', sans-serif;
   color: #FBFBDF;
   font-size: 25px; 
   line-height: 40px; 
   text-shadow: 0px 0px 3px #000;
 }
 
-.yes {
-  border: 3px solid red;
+.option1 {
+  border: 5px double white;
   padding: 10px 20px 10px 20px; 
   margin-bottom: 30px; 
 }
 
-.no {
-  border: 3px solid red;
-  padding: 10px 20px 10px 20px; 
-}
 	</style>
 </head>
 
@@ -79,8 +77,13 @@ p {
 
 	<p>You pushed yourself to do your best, and you took a risk of taking your career to the next level. You take the audition, and it's the best audition you've ever played. It went so well, that the orchestra hired you on the spot! Congratulations! You're about to begin your new as a section cellist in one of the best orchestras in the world.  </p>
 
-
-	
+<div class="options">
+  <nav>
+    <ul>
+      <li><div class="option1"><a href="Project2_Main.html">Start over?</a></li>
+    </ul>
+  </nav>
+	</div>
 
 
 

@@ -7,17 +7,6 @@
 
 	<style>
 
-html, body {
-		box-sizing: border-box;
-	}
-	* {
-		box-sizing: inherit;
-	}
-
-html, body, h1, h2, h3, h4, h5, h6 {
-		padding: 0;
-		margin: 0;
-	}
 
 body {
   background: url("img/Audition.jpg") no-repeat center center fixed; 
@@ -38,19 +27,22 @@ nav ul li {
 .options {
   margin: 0 auto; 
   margin-top: 40px;
+  margin-right: 75px;
 }
 
 a:link {
   text-decoration: none;
+  color: #FBFBDF;
+}
+
+a:visited {
+  color: #FBFBDF;
 }
 
 a:hover {
-  background-color: #F5F5DC;
+  color: #663399;
   margin: 0 auto; 
-  padding: 5px 20px 5px 20px;
-  width: 10%;
 }
-
 
 
 .info {
@@ -70,14 +62,14 @@ p {
 }
 
 .yes {
-  border: 3px solid red;
+  border: 5px double white;
   padding: 10px 20px 10px 20px; 
   margin-bottom: 30px; 
   line-height: 20px;
 }
 
 .no {
-  border: 3px solid red;
+  border: 5px double white;
   padding: 10px 20px 10px 20px; 
   line-height: 20px;
 }
@@ -94,7 +86,7 @@ p {
 	<nav>
 		<ul>
 			<li><div class="yes"><a href="Success.html">You want to push through and take a chance at the audition</a></li>
-			<li><div class="no">Back out and wait until you feel more prepared</li>
+			<li><div class="no"><a href="BackOut.html">Back out and wait until you feel more prepared</a></li>
 		</ul>
 	</nav>
 
