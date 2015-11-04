@@ -6,19 +6,6 @@
   <title>Did Not Accept</title>
 
   <style>
-
-html, body {
-    box-sizing: border-box;
-  }
-  * {
-    box-sizing: inherit;
-  }
-
-html, body, h1, h2, h3, h4, h5, h6 {
-    padding: 0;
-    margin: 0;
-  }
-
 body {
   background: url("img/Decisions.jpg") no-repeat center center fixed; 
   background-size: cover;
@@ -37,47 +24,53 @@ nav ul li {
 
 .options {
   margin: 0 auto; 
- margin-top: 40px;}
+ margin-top: 40px;
+ margin-left: -45px;
+ 
+}
 
 a:link {
   text-decoration: none;
+  color: #F5FFFA;
+}
+
+a:visited {
+  color: #F5FFFA;
 }
 
 a:hover {
-  background-color: #F5F5DC;
+  color: #663399;
   margin: 0 auto; 
-  padding: 5px 20px 5px 20px;
-  width: 10%;
 }
 
 
 
-.info {
+.container {
   padding: 20px; 
   margin: 0 auto; 
   margin-top: 120px;
-  width: 60%;
+  width: 700px;
 }
 
 
 p {
   font-family: "jaf-bernina-sans-comp",sans-serif;
-  color: #FAF0E6;
+  color: #F5FFFA;
   font-size: 25px; 
   line-height: 40px; 
   text-shadow: 1px 1px black;
 }
 
 .Opportunities {
-  border: 3px solid red;
+  border: 5px double white;
   padding: 10px 20px 10px 20px; 
   margin-bottom: 30px; 
   line-height: 20px;
 }
 
 .GiveUp {
-  margin-left: 90px;
-  border: 3px solid red;
+
+  border: 5px double white;
   padding: 10px 20px 10px 20px; 
   line-height: 20px; 
   text-align: center;
@@ -85,7 +78,7 @@ p {
 
   </style>
 </head>
-
+<div class="container">
 <body>
 <div class="info">
 
@@ -95,8 +88,8 @@ p {
   <div class="options">
   <nav>
     <ul>
-      <li><div class="Opportunities"><a href="Project2_WakeUp.html">Look into more opportunities outside of classical music</a></li>
-      <li><div class="GiveUp"><a href="Sleeping_in.html">Give up on music all together</a></li>
+      <li><div class="Opportunities"><a href="Opportunities.html">Look into more opportunities outside of classical music</a></li>
+      <li><div class="GiveUp"><a href="GiveUp.html">Give up on music all together</a></li>
     </ul>
   </nav>
 </div>

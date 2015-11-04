@@ -7,20 +7,8 @@
 
 	<style>
 
-html, body {
-		box-sizing: border-box;
-	}
-	* {
-		box-sizing: inherit;
-	}
-
-html, body, h1, h2, h3, h4, h5, h6 {
-		padding: 0;
-		margin: 0;
-	}
-
 body {
-  background: url("img/dvorak.jpeg") no-repeat center center fixed; 
+  background: url("img/Hollywood.jpg") no-repeat center center fixed; 
   background-size: cover;
 }
 
@@ -28,71 +16,80 @@ nav ul li {
     padding-right: 100px;
     padding-left: 150px;
     text-transform: uppercase;
-	font-family: sans-serif;
-	letter-spacing: 2px;
-	text-align: center;
-	list-style: none;
+		font-family: sans-serif;
+		letter-spacing: 2px;
+		text-align: center;
+		list-style: none;
     display: inline-block; 
 		}
 
 .options {
   margin: 0 auto; 
- margin-top: 40px;}
+  margin-top: 40px;
+  margin-left: 95px;
+}
 
 a:link {
   text-decoration: none;
+  color: #FFF2DD;
+}
+
+a:visited {
+  color: #FFF2DD;
 }
 
 a:hover {
-  background-color: #F5F5DC;
+  color: #663399;
   margin: 0 auto; 
-  padding: 5px 20px 5px 20px;
-  width: 10%;
 }
 
 
-
-.info {
+.container {
   padding: 20px; 
   margin: 0 auto; 
   margin-top: 70px;
-  width: 60%;
+  width: 700px;
 }
 
 
 p {
-  font-family: century gothic;
-  color: black;
+  font-family: "jaf-bernina-sans-comp",sans-serif;
+  color: #FFF2DD;
   font-size: 25px; 
   line-height: 40px; 
+  text-shadow: 1.5px 1.5px black;
 }
 
-.wakeup {
-  border: 3px solid red;
+.option1 {
+  border: 5px double white;
   padding: 10px 20px 10px 20px; 
   margin-bottom: 30px; 
+  line-height: 20px;
 }
 
-.sleep {
-  border: 3px solid red;
+.option2 {
+  border: 5px double white;
   padding: 10px 20px 10px 20px; 
+  margin-bottom: 30px; 
+  line-height: 20px;
 }
 	</style>
 </head>
-
+<div class="container">
 <body>
 <div class="info">
 
 
-	<p>As you're practicing, you realize that you really like classical music, and that you could see yourself playing in an orchestra for the rest of your life. You can either choose to play in a classical orchestra anywhere in the world, or move to Hollywood and record for film scores. You're more interested in:</p>
+	<p>You feel that moving to Hollywood is a better fit for you, and you find film scores very exciting. You look into moving to the west coast to audition for the Los Angeles Philharmonic, one of the leading orchestras for film score recordings. They have one spot available in the cello section. You'd have the opportunity to meet with some of the most famous composers, directors, producers, etc. Do you want to take this audition? </p>
 
 <div class="options">
 	<nav>
 		<ul>
-			<li>Classical Orchestra</li>
-			<li>Hollywood Orchestra</li>
+			<li><div class="option1"><a href="FilmAudition.html">Yes</a></li>
+			<li><div class="option2"><a href="BackOutFilm.html">No</a></li>
 		</ul>
 	</nav>
+</div>
 
 	
 
